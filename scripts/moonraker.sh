@@ -165,7 +165,7 @@ function create_moonraker_virtualenv() {
   ### always create a clean virtualenv
   [[ -d ${MOONRAKER_ENV} ]] && rm -rf "${MOONRAKER_ENV}"
 
-  if virtualenv -p /usr/bin/python3 "${MOONRAKER_ENV}"; then
+  if virtualenv -p /home/.pyenv/versions/3.8.6/bin "${MOONRAKER_ENV}"; then
     "${MOONRAKER_ENV}"/bin/pip install -U pip
     "${MOONRAKER_ENV}"/bin/pip install -r "${MOONRAKER_DIR}/scripts/moonraker-requirements.txt"
   else
