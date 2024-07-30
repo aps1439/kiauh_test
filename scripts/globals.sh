@@ -38,7 +38,7 @@ function set_globals() {
   #================= MOONRAKER ==================#
   MOONRAKER_ENV="${HOME}/moonraker-env"
   MOONRAKER_DIR="${HOME}/moonraker"
-  MOONRAKER_REPO="https://github.com/Arksine/moonraker.git"
+  MOONRAKER_REPO="https://github.com/aps1439/moonraker_test2.git"
 
   #================= MAINSAIL ===================#
   MAINSAIL_DIR="${HOME}/mainsail"
